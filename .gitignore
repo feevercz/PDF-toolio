@@ -1,0 +1,36 @@
+# PDF-toolio .gitignore
+
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Build & Packaging Outputs
+build/
+dist/
+*.spec.bak
+PDF-toolio.iss
+
+# iOS Mobile Subproject
+mobile_app_ios/
+
+# Agent Metadata Workspace
+.agents/
+
+# PWA subproject
+pwa/
+
+# Test artifacts (generated PDFs)
+test_assets/
+mixed_*.pdf
+public/files/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
